@@ -7,6 +7,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HeroBannerComponent } from './components/hero-banner/hero-banner.component';
 import { AnnouncementComponent } from './components/announcement/announcement.component';
 import { HomeComponent } from './components/home/home.component';
+import { FeedbackComponent } from './components/feedback/feedback.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HomeComponent } from './components/home/home.component';
     NavbarComponent,
     HeroBannerComponent,
     AnnouncementComponent,
-    HomeComponent
+    HomeComponent,
+    FeedbackComponent
   ],
   imports: [
     BrowserModule,
