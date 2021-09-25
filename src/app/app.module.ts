@@ -8,6 +8,7 @@ import { HeroBannerComponent } from './components/hero-banner/hero-banner.compon
 import { AnnouncementComponent } from './components/announcement/announcement.component';
 import { HomeComponent } from './components/home/home.component';
 import { FeedbackComponent } from './components/feedback/feedback.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FeedbackComponent } from './components/feedback/feedback.component';
     HeroBannerComponent,
     AnnouncementComponent,
     HomeComponent,
-    FeedbackComponent
+    FeedbackComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
