@@ -1,0 +1,21 @@
+.main-content {
+  margin: 8rem 0;
+  color: #002147;
+}
+
+.main-header {
+  font-family: "Times New Roman";
+  margin-bottom: 40px;
+  font-size: 3.5vmax;
+  font-weight: bold;
+}
+
+.card {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 0;
+}
+
+.img-thumbnail {
+  margin-top: -90px;
+}
