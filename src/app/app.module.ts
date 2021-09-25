@@ -10,6 +10,7 @@ import { HomeComponent } from './components/home/home.component';
 import { FeedbackComponent } from './components/feedback/feedback.component';
 import { AboutComponent } from './components/about/about.component';
 import { MailSubscriptionComponent } from './components/mail-subscription/mail-subscription.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MailSubscriptionComponent } from './components/mail-subscription/mail-s
     HomeComponent,
     FeedbackComponent,
     AboutComponent,
-    MailSubscriptionComponent
+    MailSubscriptionComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
