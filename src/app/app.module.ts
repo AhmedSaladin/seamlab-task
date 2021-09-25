@@ -11,6 +11,7 @@ import { FeedbackComponent } from './components/feedback/feedback.component';
 import { AboutComponent } from './components/about/about.component';
 import { MailSubscriptionComponent } from './components/mail-subscription/mail-subscription.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { SingleCourseComponent } from './components/single-course/single-course.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './components/footer/footer.component';
     FeedbackComponent,
     AboutComponent,
     MailSubscriptionComponent,
-    FooterComponent
+    FooterComponent,
+    SingleCourseComponent
   ],
   imports: [
     BrowserModule,
