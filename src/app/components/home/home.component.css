@@ -6,7 +6,7 @@
 .main-header {
   font-family: "Times New Roman";
   margin-bottom: 4rem;
-  font-size: 3.5vmax;
+  font-size: calc(3.5vmax + 1em);
   font-weight: bold;
 }
 
