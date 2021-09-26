@@ -39,6 +39,12 @@
 }
 
 .timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer-counter {
   font-size: 7vh;
   font-weight: bold;
 }
