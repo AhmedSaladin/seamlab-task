@@ -4,12 +4,12 @@
 }
 
 .banner-title {
-  font-size: calc(1.9vh + 0.4em);
+  font-size: calc(1.3vh + 0.4em);
 }
 
 .banner-learn {
   font-family: "Times New Roman", Times, serif;
-  font-size: calc(3vmax + 1em);
+  font-size: calc(3vmax + 0.5em);
 }
 
 .quote-btn {
