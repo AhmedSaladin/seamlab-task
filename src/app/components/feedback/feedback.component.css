@@ -41,7 +41,7 @@
 }
 
 .feedback-title {
-  font-size: 3vmax;
+  font-size: calc(3vmax + 1em);
   font-weight: bold;
   font-family: serif;
   margin-bottom: 1vmax !important;
@@ -68,4 +68,3 @@
   margin-top: calc(2.5vh - 1.5vh);
   padding: 0.2vmin;
 }
-
