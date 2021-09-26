@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 interface courseT {
-  CourseName: string;
+  courseName: string;
   courseColleague: string;
   colleagueLogo: string;
   courseImg: string;
