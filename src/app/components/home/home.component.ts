@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent implements OnInit {
-  coureses = [
+  courses = [
     {
       courseName: 'User Research for User Experience Design',
       courseColleague: 'The Museum of Modern Art',
