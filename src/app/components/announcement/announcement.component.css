@@ -10,19 +10,19 @@
 }
 
 .announcement-body {
-  max-width: 1000px;
-  padding: 1vw 1vw;
+  /* max-width: 1000px; */
+  padding: 1vw 0.5vw;
   background-color: #002147;
   margin-top: -100px !important;
-  border-radius: 8px;
-  margin: 0 auto;
+  border-radius: 12px;
 }
 
 .announcement-left-section {
   display: flex;
   align-items: center;
-  gap: 1vmax;
-  font-size: calc(4vh - 0.9em);
+  gap: 20px;
+  font-size: calc(4.5vh - 1em);
+  padding-left: 1.5vw;
 }
 
 .course-name {
@@ -31,13 +31,14 @@
 
 .announcement-right-section {
   display: flex;
-  justify-content: center;
-  gap: 5px;
+  justify-content: flex-end;
+  gap: 10px;
 }
 
 .time-section {
   align-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .timer {
