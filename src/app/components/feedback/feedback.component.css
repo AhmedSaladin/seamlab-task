@@ -65,12 +65,7 @@
 
 .feedback-course-img {
   position: absolute;
-  margin-top: 0.5vmin;
+  margin-top: calc(2.5vh - 1.5vh);
   padding: 0.2vmin;
 }
 
-@media (max-width: 525px) {
-  .feedback-course-img {
-    margin-top: 3vmin;
-  }
-}
